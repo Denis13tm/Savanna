@@ -11,7 +11,7 @@ import SwiftUI
 struct SavannaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
