@@ -36,12 +36,13 @@ struct MapAnnotationView: View {
             
         }//: ZStack
         .onAppear {
-            withAnimation(Animation.easeOut(duration: 2).repeatForever(autoreverses: false)) {
+            withAnimation(.easeOut(duration: 2).repeatForever(autoreverses: false)) {
                 animation = 1
             }
         }
     }
 }
+
 
 //MARK: - Preview
 struct MapAnnotationView_Previews: PreviewProvider {

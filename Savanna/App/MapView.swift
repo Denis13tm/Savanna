@@ -27,14 +27,6 @@ struct MapView: View {
     var body: some View {
 //        Map(coordinateRegion: $region)
         Map(coordinateRegion: $region, annotationItems: locations, annotationContent: { item in
-
-//            MapAnnotation(coordinate: item.location) {
-//                Image("logo")
-//                    .resizable()
-//                    .scaledToFit()
-//                    .frame(width: 32, height: 32, alignment: .center)
-//            }//: Annotation
-            
             MapAnnotation(coordinate: item.location) {
                 MapAnnotationView(location: item)
             }
