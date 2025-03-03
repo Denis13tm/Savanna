@@ -24,7 +24,7 @@ extension Bundle {
         
         // 4. Create a property for the decoded data
         guard let loaded = try? decoder.decode(T.self, from: data) else {
-            fatalError("Fai;ed to decode \(file) fromn bundle.")
+            fatalError("Failed to decode \(file) fromn bundle.")
         }
         
         // 5. Return the ready-to-use data
