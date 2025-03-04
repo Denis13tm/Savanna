@@ -87,7 +87,7 @@ struct AnimalDetailView: View {
                 .padding(.horizontal)
                 
             } // VStack
-            .navigationBarTitle("Leran about \(animal.name)", displayMode: .inline)
+            .navigationBarTitle("Learn about \(animal.name)", displayMode: .inline)
         } //: Scroll
     }
 }
